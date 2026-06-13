@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidad — Kinezo</title>
+<style>
+  :root {
+    --bg: #0A1525; --surface: #0F1E35; --card: #162440;
+    --text: #E8F0F8; --text2: #7A99B8; --accent: #00B4D8; --border: #1A3050;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, 'DM Sans', 'Segoe UI', sans-serif;
+    line-height: 1.7; padding: 40px 20px;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.9rem; margin-bottom: 4px; }
+  .updated { color: var(--text2); font-size: .9rem; margin-bottom: 32px; }
+  h2 {
+    font-size: 1.15rem; color: var(--accent);
+    margin: 32px 0 10px; padding-top: 18px; border-top: 1px solid var(--border);
+  }
+  p, li { color: var(--text); font-size: .98rem; margin-bottom: 10px; }
+  ul { padding-left: 22px; margin-bottom: 10px; }
+  strong { color: #fff; }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 16px 20px; margin: 14px 0;
+  }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--text2); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidad — Kinezo</h1>
+  <p class="updated">Última actualización: 12 de junio de 2026</p>
+
+  <p>Kinezo es una aplicación para entrenadores personales que permite gestionar
+  alumnos, pagos, agenda y registros de entrenamiento. Esta política explica qué
+  datos se recopilan, cómo se usan y cuáles son tus derechos.</p>
+
+  <h2>1. Responsable</h2>
+  <p>Responsable del tratamiento: <strong>[TU NOMBRE COMPLETO]</strong>.<br>
+  Contacto: <a href="mailto:z37426@proton.me">z37426@proton.me</a></p>
+
+  <h2>2. Datos que recopilamos</h2>
+  <p><strong>De tu cuenta de entrenador:</strong></p>
+  <ul>
+    <li>Email y contraseña (la contraseña se almacena cifrada, nunca en texto plano).</li>
+    <li>Nombre que elijas mostrar.</li>
+  </ul>
+  <p><strong>Datos que tú introduces sobre tus alumnos:</strong></p>
+  <ul>
+    <li>Nombre, teléfono y fecha de inicio.</li>
+    <li>Pagos registrados (montos y fechas).</li>
+    <li>Horarios de sesiones.</li>
+    <li>Registros de entrenamiento (músculos trabajados, ejercicios, series, pesos).</li>
+    <li>Notas de salud que decidas anotar.</li>
+  </ul>
+  <div class="card">
+    <p><strong>Importante:</strong> como entrenador, eres responsable de contar con el
+    consentimiento de tus alumnos para registrar su información en la app,
+    especialmente las notas relacionadas con su salud.</p>
+  </div>
+  <p><strong>Lo que NO recopilamos:</strong> ubicación, contactos del teléfono,
+  fotos, micrófono ni identificadores publicitarios. Kinezo no muestra publicidad
+  y <strong>nunca vende tus datos</strong>.</p>
+
+  <h2>3. Dónde se almacenan</h2>
+  <p>Los datos se almacenan en <strong>Supabase</strong> (infraestructura sobre
+  Amazon Web Services), protegidos con cifrado en tránsito (TLS) y políticas de
+  aislamiento por cuenta: cada entrenador solo puede acceder a sus propios datos
+  (Row Level Security).</p>
+
+  <h2>4. Servicios de terceros</h2>
+  <ul>
+    <li><strong>Supabase</strong> — base de datos y autenticación
+      (<a href="https://supabase.com/privacy">su política</a>).</li>
+    <li><strong>Google Fonts</strong> — la app descarga tipografías de servidores
+      de Google, lo que implica que tu dirección IP puede ser visible para Google
+      (<a href="https://policies.google.com/privacy">su política</a>).</li>
+  </ul>
+  <p>Durante la fase beta podemos usar herramientas de reporte de errores
+  (p. ej. Sentry) que recogen información técnica del fallo (modelo de
+  dispositivo, versión de iOS, traza del error). No incluyen datos de tus alumnos.</p>
+
+  <h2>5. Para qué usamos los datos</h2>
+  <ul>
+    <li>Prestar el servicio: mostrar y sincronizar tu información entre sesiones.</li>
+    <li>Soporte: responder tus consultas.</li>
+    <li>Mejorar la app: diagnóstico de errores técnicos.</li>
+  </ul>
+
+  <h2>6. Conservación y eliminación</h2>
+  <p>Tus datos se conservan mientras tu cuenta esté activa. Puedes solicitar la
+  <strong>eliminación completa de tu cuenta y todos los datos asociados</strong>
+  (incluidos los de tus alumnos) escribiendo a
+  <a href="mailto:z37426@proton.me">z37426@proton.me</a>. La eliminación se
+  completa en un plazo máximo de 30 días.</p>
+
+  <h2>7. Tus derechos</h2>
+  <p>Puedes ejercer en cualquier momento tus derechos de acceso, rectificación,
+  eliminación y portabilidad de tus datos escribiendo al correo de contacto.</p>
+
+  <h2>8. Menores</h2>
+  <p>Kinezo está dirigida a entrenadores profesionales mayores de 18 años.</p>
+
+  <h2>9. Cambios a esta política</h2>
+  <p>Si esta política cambia de forma sustancial, lo notificaremos dentro de la
+  app antes de que el cambio entre en vigor.</p>
+
+  <footer>© 2026 Kinezo · <a href="mailto:z37426@proton.me">z37426@proton.me</a></footer>
+</main>
+</body>
+</html>
